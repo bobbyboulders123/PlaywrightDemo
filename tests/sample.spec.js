@@ -36,3 +36,9 @@ test("Sixth Test", async function ({page}) {
   expect("kishmeergha".includes("kish")).toBeTruthy()
   
 })
+
+test("Seventh Test", async function ({page}) {
+  
+  expect("kishmeergha".includes("bish")).toBeTruthy()
+  
+})
